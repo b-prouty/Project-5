@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+ul {
+  list-style-type: none;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+#search {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid lightblue;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.imagelightbox-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 41px;
+}
+
+.imagelightbox-caption p {
+  max-width: 600px;
+  margin: 0 auto;
+}
